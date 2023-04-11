@@ -1,0 +1,25 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// string
+var greetings = "Hello";
+// let myNum = 7;
+// myNum.toLowerCase();
+greetings.toLowerCase();
+console.log(greetings);
+// number
+var userId = 334466.3;
+// boolean
+var isLoggedIn = false;
+// type inference - In TypeScript, there are several places where type inference is used to provide type information when there is no explicit type annotation
+// instead of the above userId we can use
+// don't do too obvious things, use : where its needed.
+var userId2 = 3000.2;
+userId2.toFixed();
+// this will inferes it as any
+// let hero;
+// in such situations its better to specify
+var hero;
+function getHero() {
+    return "Thor";
+}
+hero = getHero();
